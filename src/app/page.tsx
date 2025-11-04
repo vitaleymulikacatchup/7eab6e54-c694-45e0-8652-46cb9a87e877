@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -25,7 +25,7 @@ export default function Home() {
       cardStyle="gradient-bordered"
       primaryButtonStyle="shadow"
       secondaryButtonStyle="glass"
-      showBlurBottom={false}
+      showBlurBottom="false"
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
@@ -307,10 +307,10 @@ export default function Home() {
             }
           ]}
           socialLinks={[
-            { icon: Twitter, url: "https://twitter.com/dialedweb", ariaLabel: "Twitter" },
-            { icon: Linkedin, url: "https://linkedin.com/company/dialedweb", ariaLabel: "LinkedIn" },
-            { icon: Github, url: "https://github.com/dialedweb", ariaLabel: "GitHub" },
-            { icon: Dribbble, url: "https://dribbble.com/dialedweb", ariaLabel: "Dribbble" }
+            { icon: Twitter, ariaLabel: "Twitter" },
+            { icon: Linkedin, ariaLabel: "LinkedIn" },
+            { icon: Github, ariaLabel: "GitHub" },
+            { icon: Dribbble, ariaLabel: "Dribbble" }
           ]}
         />
       </div>
