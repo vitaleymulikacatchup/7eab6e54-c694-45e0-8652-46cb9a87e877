@@ -25,7 +25,7 @@ export default function Home() {
       cardStyle="gradient-bordered"
       primaryButtonStyle="shadow"
       secondaryButtonStyle="glass"
-      showBlurBottom="false"
+      showBlurBottom={false}
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
